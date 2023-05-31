@@ -1,0 +1,17 @@
+CREATE TABLE CUSTOMERid (
+   ID INT NOT NULL,
+   NAME VARCHAR (20) NOT NULL,
+   AGE INT NOT NULL,
+   ADDRESS CHAR (25),
+   SALARY DECIMAL (18, 2),       
+   PRIMARY KEY (ID)
+);
+insert INTO CUSTOMERid VALUES(1, 'geetha', 32, 'Ahmedabad', 2000.00);
+insert INTO CUSTOMERid VALUES(2, 'anusha', 25, 'Delhi', 1500.00);
+insert INTO CUSTOMERid VALUES(3, 'roshan', 23, 'Kota', 2000.00);
+insert INTO CUSTOMERid VALUES(4, 'anu', 25, 'Mumbai', 6500.00);
+insert INTO CUSTOMERid VALUES(5, 'akhila', 27, 'Bhopal', 8500.00);
+SELECT * from CUSTOMERid;
+SELECT ID, NAME, SALARY 
+FROM CUSTOMERid
+WHERE SALARY > 2000;
