@@ -1,0 +1,42 @@
+header {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-decoration-color: black;
+  text-align: center;
+  font-style: oblique;
+}
+.List {
+  list-style-type: none;
+}
+body {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700405720.jpg");
+}
+p {
+  color: black;
+  text-shadow: black;
+}
